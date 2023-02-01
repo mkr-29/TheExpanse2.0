@@ -1,0 +1,32 @@
+.te-landing{
+    background: url("./Assets/home.png");
+    background-size: cover;
+    background-position: center;
+    height: 46.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.te-heading{
+    font-family: alpha;
+    color: white;
+    font-weight: 500;
+    font-size: 123.447px;
+}
+.te-landing-register{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    background: none;
+    padding: 0 24px;
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+}
+.te-landing-register:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
