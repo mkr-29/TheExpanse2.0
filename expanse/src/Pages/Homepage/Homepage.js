@@ -9,7 +9,7 @@ import "./Homepage.css"
 
 export default function Homepage() {
   return (
-    <div>
+    <div className='ex-homepage'>
       <Landing/>
       <Time/>
       <About/>

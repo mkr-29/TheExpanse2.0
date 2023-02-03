@@ -10,10 +10,10 @@ export default function Schedule() {
   return (
     <div className='sc-expsection'>
         <div className='sc-ornaments'>
-            <img src={Orn5} className='orn-5'/>
+            {/* <img src={Orn5} className='orn-5'/> */}
             <img src={Orn6} className='orn-6'/>
             <img src={Orn7} className='orn-7'/>
-            <img src={Orn8} className='orn-8'/>
+            {/* <img src={Orn8} className='orn-8'/> */}
         </div>
         <h1 className='sc-expanse'>Schedule</h1>
         <div className='sc-tcards'>
