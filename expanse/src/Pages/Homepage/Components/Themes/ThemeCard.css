@@ -69,7 +69,8 @@
         font-size: 30px;
     }
     .events_car_desc{
-        font-size: 18px;
+        font-size: 16px;
+        width: 75%;
     }
     .slideInner___2mfX9{
         margin-left: 0;
@@ -82,11 +83,11 @@
         width: 1rem;
     }
     .but_back{
-        top: 26.2rem;
-        left: 2rem;
+        top: 20.2rem;
+        left: 0.5rem;
     }
     .but_next{
-        top: 26.2rem;
-        right: 2rem;
+        top: 20.2rem;
+        right: 0.5rem;
     }
 }
