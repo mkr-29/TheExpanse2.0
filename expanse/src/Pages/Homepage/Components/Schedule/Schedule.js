@@ -8,7 +8,7 @@ import Orn8 from "./Assets/orn8.svg"
 
 export default function Schedule() {
   return (
-    <div className='sc-expsection'>
+    <div className='sc-expsection' id='ex-schedule'>
         <div className='sc-ornaments'>
             {/* <img src={Orn5} className='orn-5'/> */}
             <img src={Orn6} className='orn-6'/>

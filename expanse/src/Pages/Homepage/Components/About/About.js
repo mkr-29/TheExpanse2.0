@@ -12,7 +12,7 @@ import Orn4 from "./Assets/orn4.svg";
 
 export default function About() {
   return (
-    <div className="te-absection">
+    <div className="te-absection" id="about-hp">
         <div className="ab-ornaments">
             <img src={Orn1} className="orn-1"/>
             <img src={Orn2} className="orn-2"/>

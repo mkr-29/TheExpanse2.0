@@ -4,7 +4,7 @@ import "./Themes.css";
 
 export default function Themes() {
   return (
-    <div className="murious_events">
+    <div className="murious_events" id="ex-themes">
       <span className="events_head">Themes</span>
       <div className="events_ev">
         <EventsCar

@@ -21,12 +21,10 @@ export default function Footer() {
                 <p>Jaypee University Of Information Technology</p>
                 <p>Waknaghat, HP - 173234,India</p>
                 <p>Phone: +91-9418838790</p>
-                <p>Email: anthwalangimaa@gmail.com</p>
+                <p>Email: <a href="mailto:technicalclub.jyc@juitsolan.in">anthwalangimaa@gmail.com</a></p>
             </div>
             <div className='fo-socials'>
-                <Link to='/'><img src={FbIco} className="f-icos" alt="Facebook"/></Link>
-                <Link to='/'><img src={TwIco} className="f-icos" alt="Twitter"/></Link>
-                <Link to='/'><img src={InIco} className="f-icos" alt="Instagram"/></Link>
+                <Link to='./https://www.instagram.com/murious.juit/'><img src={InIco} className="f-icos" alt="Instagram"/></Link>
             </div>
             <p className='fo-coop'>Copyright © Murious JUIT. All Rights Reserved</p>
         </div>

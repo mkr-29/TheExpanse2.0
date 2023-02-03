@@ -47,7 +47,7 @@ function Header() {
                to="about-hp"
                spy={true}
                smooth={true}
-               offset={-100}
+               offset={-76}
                duration={1000}
                >
                  ABOUT
@@ -55,11 +55,27 @@ function Header() {
             </li>
 
             <li>
-              <Link to="/events">EVENTS</Link>
+            <LNK
+               to="ex-themes"
+               spy={true}
+               smooth={true}
+               offset={-75}
+               duration={1000}
+               >
+                THEMES
+            </LNK>
             </li>
 
             <li>
-              <Link to="/page-under-construction">Schedule</Link>
+            <LNK
+               to="ex-schedule"
+               spy={true}
+               smooth={true}
+               offset={-75}
+               duration={1000}
+               >
+                Schedule
+            </LNK>
             </li>
 
           </ul>

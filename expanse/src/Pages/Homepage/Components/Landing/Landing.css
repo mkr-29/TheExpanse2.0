@@ -13,6 +13,13 @@
     color: white;
     font-weight: 500;
     font-size: 123.447px;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+}
+.te-heading span{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 127px;
 }
 .te-landing-register{
     font-family: 'Poppins';
@@ -32,6 +39,9 @@
 }
 
 @media screen and (max-width: 400px) {
+    .te-heading span{
+        font-size: 40px;
+    }
     .te-heading{
         font-size: 40px;
     }

@@ -38,6 +38,10 @@
 .fo-text p{
     margin: 0;
 }
+.fo-text p a{
+    color: white;
+    text-decoration: none;
+}
 .fo-socials{
     display: flex;
     justify-content: center;
