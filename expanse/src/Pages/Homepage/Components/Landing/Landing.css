@@ -2,7 +2,7 @@
     background: url("./Assets/home.png");
     background-size: cover;
     background-position: center;
-    height: 46.8rem;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
