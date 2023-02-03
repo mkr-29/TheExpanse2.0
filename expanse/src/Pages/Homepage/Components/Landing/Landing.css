@@ -30,3 +30,12 @@
     color: black;
     border-color: white;
 }
+
+@media screen and (max-width: 400px) {
+    .te-heading{
+        font-size: 40px;
+    }
+    .te-landing{
+        height: 41.2rem;
+    }
+}

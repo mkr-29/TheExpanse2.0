@@ -1,0 +1,157 @@
+.te-absection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1f1f;
+    position: relative;
+    gap: 3rem;
+    padding: 2rem 0 8rem 0;
+}
+.ab-head{
+    font-weight: 500;
+    font-size: 111.186px;
+    color: white;
+}
+.ab-murious{
+    display: flex;
+    z-index: 1;
+    width: 88%;
+}
+.ab-muleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.ab-mulogo{
+    width: 10rem;
+}
+.ab-text{
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+.visit-m img{
+    display: none;
+}
+.visit-m{
+    font-family: 'Poppins';
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    width: 4.6rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    transition: all 0.5s;
+    font-weight: 300;
+}
+.visit-m:hover img{
+    display: block;
+}
+.visit-m:hover{
+    width: 6.5rem;
+    gap: 1rem;
+    background: linear-gradient(98.14deg, #149308 10.57%, #5EBF4E 95.89%);
+    color: black;
+    border: #5EBF4E 3px solid;
+}
+.ab-muright{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.ab-muimg{
+}
+.ab-expanse-head{
+    font-weight: 500;
+    font-size: 44px;
+    color: white;
+    margin: 0;
+}
+.ab-expanse{
+    margin-top: 7rem;
+}
+.reg-expanse{
+    width: 9rem;
+}
+.reg-expanse:hover{
+    width: 12rem;
+}
+.orn-1{
+    position: absolute;
+    left: 0;
+    top: 8rem;
+}
+.orn-2{
+    position: absolute;
+    right: 0;
+    top: 19rem;
+}
+.orn-3{
+    position: absolute;
+    top: 55rem;
+    left: 46%;
+}
+.orn-4{
+    position: absolute;
+    top: 74rem;
+    left: 0;
+}
+
+@media screen and (max-width: 400px) {
+    .ab-head{
+        font-size: 52px;
+    }
+    .ab-murious{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .ab-muleft{
+        width: 100%;
+    }
+    .ab-text{
+        font-size: 16px;
+    }
+    .visit-m{
+        font-size: 24px;
+        height: 2.5rem;
+    }
+    .ab-muright{
+        width: 100%;
+    }
+    .ab-muimg{
+        width: 100%;
+    }
+    .ab-expanse-head{
+        font-size: 36px;
+    }
+    .ab-expanse{
+        margin-top: 2rem;
+    }
+    .te-absection{
+        padding-bottom: 4rem;
+    }
+    .orn-1{
+        top: 9rem;
+        width: 12rem;
+    }
+    .orn-2{
+        width: 12rem;
+        top: 41rem;
+    }
+    .orn-3{
+        top: 65rem;
+        left: 5%;
+        width: 10rem;
+    }
+    .orn-4{
+        width: 12rem;
+        top: 95rem;
+        left: 40%;
+    }
+}
